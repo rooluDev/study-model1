@@ -1,4 +1,5 @@
-<%@ page import="com.study.connection.ConnectionTest" %>
+<%@ page import="com.study.connection.JDBCConnection" %>
+<%@ page import="com.study.connection.JDBCConnection" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -14,7 +15,7 @@
 
 <%
 
-    ConnectionTest t = new ConnectionTest();
+    JDBCConnection t = new JDBCConnection();
     out.println(t.getConnection());
 
 %>
